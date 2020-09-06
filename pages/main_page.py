@@ -8,3 +8,6 @@ class MainPage(BasePage):
         search_form.send_keys(string)
         search_button = self.browser.find_element(*MainPageLocators.SEARCH_BUTTON)
         search_button.click()
+    def back_to_main(self):
+        home_logo = self.browser.find_element(*MainPageLocators.HOME_LOGO)
+        home_logo.click()
