@@ -1,6 +1,9 @@
 # yandex-selenium-test
 
 ###  Test case №1
+
+### Тест поиска 
+
 `test_main-page.py/test_search()`
 
 | № | Шаг | Ожидаемый результат | Фактический результат |
